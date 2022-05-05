@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    
+    
+}
+.body{
+    position: relative;
+    width: 550px;
+    height: 868px;
+    left: auto;
+    top: auto;
+    background: #23252C;
+    margin: auto;
+    /* height: 100%; */
+    /* min-height: 100vh; */
+    /* min-width: 100vw; */
+    /* width: 100%; 
+    min-height: 100vh;
+    height: 100%; */
+}
+
+.image{
+    height: 317px;
+    width: 317px;
+    left: 116px;
+    top: 44px;
+    border-radius: 10px 10px 0px 0px;
+    position: absolute;
+    
+}
+
+.name {
+    position: absolute;
+    width: 178.06px;
+    height: 28.81px;
+    left: 186px;
+    top: 362px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.role{
+    position: absolute;
+    width: 178.06px;
+    height: 18.19px;
+    left: 186px;
+    top: 410px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+
+.email{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 478px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+    cursor: pointer;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+.linkedin{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+
+    position: absolute;
+    width: 115px;
+    height: 39px;
+    left: 283px;
+    top: 476px;
+
+    background: #5093E2;
+    /* shadow/sm */
+    cursor: pointer;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.about{
+    position: absolute;
+    width: 247px;
+    height: 21px;
+    left: 152px;
+    top: 535px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+
+.about-details{
+    position: absolute;
+    width: 247px;
+    height: 110px;
+    left: 152px;
+    top: 561px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+}
+
+.interest{
+    position: absolute;
+    width: 247px;
+    height: 21px;
+    left: 152px;
+    top: 689px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+
+.interest-details{
+    position: absolute;
+    width: 247px;
+    height: 33px;
+    left: 152px;
+    top: 715px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+}
+
+.footer{
+    position: absolute;
+    width: 267px;
+    height: 64px;
+    left: 141px;
+    top: 790px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+    /* display: flex; */
+    justify-content: space-between
+} 
+
+.github{
+    position: absolute;
+    left: 5.36%;
+    right: 60.09%;
+    top: 25.75%;
+    bottom: 7.37%;
+    width: 30px; 
+    background: #918E9B;
+     cursor: pointer;
+}
+.fb {
+  width: 30px; 
+  position: absolute;
+    left: 33.27%;
+    right: 52.18%;
+    top: 25.75%;
+    bottom: 7.37%;
+     cursor: pointer;
+    background: #918E9B;
+}
+.insta {
+   width: 30px; 
+   position: absolute;
+    left: 57.18%;
+    right: 43.27%;
+    top: 25.75%;
+    bottom: 7.37%;
+     cursor: pointer;
+    /* background: #918E9B; */
+}
+.twitter {
+    width: 30px;
+    position: absolute;
+    left: 84%;
+    right: 34.45%;
+    top: 25.8%;
+    bottom: 7.32%;
+    cursor: pointer;
+    background: #918E9B;
+}
+
